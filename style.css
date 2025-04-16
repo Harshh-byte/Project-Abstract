@@ -39,14 +39,14 @@ html, body{
     align-items:center;
     gap: 20px;
 }
-#search{
+.search{
     border-radius: 10px;
     padding: 15px 20px;
     font-size: large;
     border: none;
     outline: none;
 }
-#request{
+.request{
     border-radius: 10px;
     background-color: black;
     border: 1px solid white;
@@ -55,7 +55,7 @@ html, body{
     font-size: 19px;;
     cursor: pointer;
 }
-#sign-in{
+.sign-in{
     border-radius: 10px;
     background-color: #007bff;
     padding: 15px 20px;
@@ -64,7 +64,7 @@ html, body{
     cursor: pointer;
     transition: background-color 0.2s ease;
 }
-#sign-in:hover{
+.sign-in:hover{
     background-color: #fff;
     color: #000;
 }
