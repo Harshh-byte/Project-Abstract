@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-    <link rel="icon" type="image/png" href="Assets/Images/logo.png"/>
+    <link rel="icon" type="image/png" href="Assets/Images/logo.png" />
 </head>
 
 <body>
@@ -20,7 +20,22 @@
             <span class="title">Abstract | Help Center</span>
         </div>
         <div class="right-section">
-            <input class="search" type="text" placeholder="Search">
+            <div class="search-container"></div>
+                <input class="search" type="text" placeholder="Search">
+                <button class="search-icon-btn">
+                    <img src="Assets/Images/search.png" alt="search">
+                </button>
+            </div>
+            <div id="mobile-search-container" class="mobile-search hidden">
+                <input type="text" class="search" placeholder="Search..." />
+            </div>
+            <button class="menu-toggle" id="menu-toggle">
+                <span style="font-size: 28px; color: white;">&#9776;</span>
+            </button>
+            <button class="request desktop-only">Submit a request</button>
+            <button class="sign-in desktop-only">Sign In</button>
+        </div>
+        <div class="mobile-menu" id="mobile-menu">
             <button class="request">Submit a request</button>
             <button class="sign-in">Sign In</button>
         </div>
