@@ -594,6 +594,11 @@ p {
       display: flex;
       align-items: center;
       justify-content: flex-start; /* Align left */
+      flex-direction: row;
+    }
+
+    .title{
+        width: max-content;
     }
   
     .right-section {
